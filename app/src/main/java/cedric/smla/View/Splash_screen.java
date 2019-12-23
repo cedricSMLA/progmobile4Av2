@@ -1,9 +1,11 @@
-package cedric.smla;
+package cedric.smla.View;
 
 import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import cedric.smla.R;
 
 public class Splash_screen extends AppCompatActivity {
 

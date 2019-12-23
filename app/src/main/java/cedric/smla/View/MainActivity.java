@@ -1,13 +1,15 @@
-package cedric.smla;
+package cedric.smla.View;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Second_activity extends AppCompatActivity {
+import cedric.smla.R;
+
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_second_activity);
+        setContentView(R.layout.activity_main);
     }
 }
