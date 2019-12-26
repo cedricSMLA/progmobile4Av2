@@ -6,7 +6,8 @@
 *Design
 *Architecture MVC
 *Git
-###Good to have :
+
+### Good to have :
 *Clean Architecture
 *RxJava ou Coroutines
 *Tests Unitaires
@@ -19,14 +20,14 @@
 * Architecture MVC
 * Git
 
-###Eléments supplémentaires
+### Eléments supplémentaires
 * Splash Screen
 * Stockage des données en cache
 * Notification Push avec Firebase
 * Utilisation de Matérial design
 * RecyclerView
 
-###Cette application android dresse une liste des personnages et des planètes de l'univers DragonBall Z. Elle a été codée en java avec Android Studio dans le cadre du module de Programmarion Mobile 4A CFA.
+### Cette application android dresse une liste des personnages et des planètes de l'univers DragonBall Z. Elle a été codée en java avec Android Studio dans le cadre du module de Programmarion Mobile 4A CFA.
 
 ## Voici comment se présente mon application :
 * Starting SplashScreen
