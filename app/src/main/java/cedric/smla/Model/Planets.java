@@ -1,12 +1,13 @@
 package cedric.smla.Model;
 
-public class planet {
+public class Planets {
     private String url;
     private String name;
     private String residents;
     private String image;
 
-    public planet(String name, String residents,
+    public Planets(){}
+    public Planets(String name, String residents,
                   String url, String image){
         this.name = name;
         this.residents = residents;
@@ -14,7 +15,7 @@ public class planet {
         this.image = image;
     }
 
-    public planet(){}
+
 
     public String getUrl() {
         return url;

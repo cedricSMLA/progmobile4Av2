@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Progmobile4A</string>
+    <string name="app_name">DBZ</string>
+    <string name="tab_text_1">Planets</string>
+    <string name="tab_text_2">Characters</string>
+    <string name="entrance">Enter</string>
+    <string name="notification_channel_id">myCanal</string>
+    <string name="notification_channel_title">myTitle</string>
+    <string name="notification_channel_desc">This is a test canal</string>
 </resources>

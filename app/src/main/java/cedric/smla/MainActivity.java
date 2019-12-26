@@ -1,9 +1,15 @@
 package cedric.smla;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
-import cedric.smla.R;
+import cedric.smla.View.Selection;
+import static cedric.smla.R.menu.filtre;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,5 +17,25 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu){
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(filtre, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.entrance:
+                Intent onDataSelected = new Intent(this, Selection.class);
+                startActivity(onDataSelected);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+
     }
 }

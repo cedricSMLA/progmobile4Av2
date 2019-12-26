@@ -3,8 +3,8 @@ package cedric.smla.Model;
 import java.util.List;
 
 public class PlanetList {
-    private List<planet> listePlanet;
-    public List<planet> getListePlanet() {
+    private List<Planets> listePlanet;
+    public List<Planets> getListePlanet() {
         return listePlanet;
     }
 }

@@ -1,7 +1,8 @@
 package cedric.smla.View;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import cedric.smla.R;
 

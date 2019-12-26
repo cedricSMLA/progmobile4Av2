@@ -1,6 +1,6 @@
 package cedric.smla.Model;
 
-public class character {
+public class Characters {
     private String name;
     private String species;
     private String status;
@@ -10,7 +10,7 @@ public class character {
     private String image;
     private String origin_planet;
 
-    public character(String name, String species, String status, String series,
+    public Characters(String name, String species, String status, String series,
                      String gender, String url, String image, String origin_planet){
         this.gender = gender;
         this.image = image;
@@ -22,7 +22,7 @@ public class character {
         this.url = url;
     }
 
-    public character(){}
+    public Characters(){}
 
     public String getName() {
         return name;
