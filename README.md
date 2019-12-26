@@ -2,16 +2,16 @@
 
 ## Présentation
 ## Dans le cadre du module de programmation mobile en 4A CFA à l'ESIEA, nous devions réaliser une application android répondant à des critères spécifique:
-*Appel WebService à une API Rest
-*Design
-*Architecture MVC
-*Git
+* Appel WebService à une API Rest
+* Design
+* Architecture MVC
+* Git
 
 ### Good to have :
-*Clean Architecture
-*RxJava ou Coroutines
-*Tests Unitaires
-*Architecture MVVM
+* Clean Architecture
+* RxJava ou Coroutines
+* Tests Unitaires
+* Architecture MVVM
 
 ## Consignes respectées :
 * 2 Fragments
